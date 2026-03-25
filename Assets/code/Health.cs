@@ -6,7 +6,7 @@ using UnityEngine;
 [Serializable]
 public class Health
 {
-    [SerializeField] private int value = 10;
+    [SerializeField] private int value = 100;
 
     public void TakeDamage(int damage)
     {
