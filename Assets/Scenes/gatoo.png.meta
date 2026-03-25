@@ -1,10 +1,13 @@
 fileFormatVersion: 2
-guid: 058f7c8a2e8742843a1eac6749854efe
+guid: 0707a01b5aa2ba24a9b6af78c38bc2ed
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5155329453913746789
-    second: gato_0
+      213: 7666824620547816239
+    second: gatoo_0
+  - first:
+      213: -1496672487210229450
+    second: gatoo_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -152,11 +155,11 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: gato_0
+      name: gatoo_0
       rect:
         serializedVersion: 2
         x: 9
-        y: 11
+        y: 0
         width: 103
         height: 104
       alignment: 0
@@ -167,8 +170,30 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b92dc5ffc279478b0800000000000000
-      internalID: -5155329453913746789
+      spriteID: f2bb8fe2f58066a60800000000000000
+      internalID: 7666824620547816239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gatoo_1
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 1
+        width: 107
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 631ebb67d40ca3be0800000000000000
+      internalID: -1496672487210229450
       vertices: []
       indices: 
       edges: []
@@ -187,7 +212,8 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      gato_0: -5155329453913746789
+      gatoo_0: 7666824620547816239
+      gatoo_1: -1496672487210229450
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
