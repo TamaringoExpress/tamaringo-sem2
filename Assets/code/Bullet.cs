@@ -1,13 +1,13 @@
 using UnityEngine;
 
-public class GameMaNAGER : MonoBehaviour
+public class BULLET : MonoBehaviour
 {
-
-
+   
     void Start()
     {
-        
+        Debug.Log("XD");
     }
+
 
     void Update()
     {

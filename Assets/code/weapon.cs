@@ -1,32 +1,38 @@
 using UnityEngine;
 
-public class weapon : MonoBehaviour
+public class Weapon : MonoBehaviour
 {
-    private int damage = 30;
-    private int ammo = 10;
-
-
+    [SerializeField] private int damage;
+    [SerializeField] private int ammo = 10;
     void Start()
     {
 
     }
-    public void Shoot(Player target)
+    public void Shoot(Enemy target)
     {
-        if (target == null || ammo == 0)
-             return; 
-      
+        //->
+        if (target == null || ammo <= 0)
+        {
+            Debug.Log("No tiene munición");
+            return;
+        }
+
+
+        //->if
         if (ammo >= 1)
         {
             target.TakeDamage(damage);
             ammo--;
-            Debug.Log("BAM");
+            Debug.Log("Shoot");
         }
         else
         {
-            Debug.LogWarning("no tienes municion");
+            Debug.Log("No tiene munición");
         }
+
+
+        //-> else
     }
 
- 
 
 }
